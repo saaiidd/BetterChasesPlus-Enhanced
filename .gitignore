@@ -1,0 +1,12 @@
+# build output
+bin/
+obj/
+out/
+
+# third-party reference assemblies - NOT redistributed here.
+# Supply your own from your SHVDNE + LemonUI installs (see README).
+refs/
+*.user
+
+# any build output dir
+/out*/
