@@ -1,33 +1,60 @@
 # NOTICE
 
-This repository is a **community Enhanced-edition port** of the mod
-**Better Chases+**. It is not an original work.
+This repository is a **community Enhanced Edition port** of **Better Chases+**. It is not an original mod.
 
 ## Original mod and authors
-- **Better Chases+** by **Daimian** (GitHub: `jglassmaker`)
-  - https://www.gta5-mods.com/scripts/better-chases
-  - https://github.com/jglassmaker/GTAV-BetterChasesPlus
-- A continuation, with permission, of the **Better Chases** and
-  **Arrest Warrants** mods by **Eddlm** and **Guadmaz**.
 
-All rights to the original mod and its design remain with the original authors.
+* **Better Chases+** by **Daimian** / GitHub: `jglassmaker`
+
+  * https://www.gta5-mods.com/scripts/better-chases
+  * https://github.com/jglassmaker/GTAV-BetterChasesPlus
+
+* Better Chases+ continues earlier work from **Eddlm** and **Guadmaz**, with permission from the original authors.
+
+  * https://www.gta5-mods.com/scripts/better-chases-arrest-warrant
+
+All rights to the original mod, its design, and its gameplay systems remain with the original authors.
 
 ## This port
-- Enhanced (SHVDNE / LemonUI) compatibility port by **b3hold**.
-- The port adds compatibility shims (`EnhancedWanted`, `GameClockCompat`,
-  a LemonUI-backed `NativeUI` facade) and helper subsystems (`Diagnostics`,
-  `StoragePaths`, `XmlPersistence`) that are not part of the original mod.
-- The gameplay/balance logic is the original author's and is unchanged.
 
-## Third-party components (referenced, NOT redistributed in this repo)
-- **ScriptHookVDotNet Enhanced (SHVDNE)** — https://www.gta5-mods.com/tools/script-hook-v-net-enhanced
-- **LemonUI** (MIT License) — https://github.com/LemonUIbyLemon/LemonUI
-- **Script Hook V** by Alexander Blade — http://www.dev-c.com/gtav/scripthookv/
+* GTA V Enhanced compatibility port by **b3hold**.
+* Built for ScriptHookVDotNet Enhanced / SHVDNE.
+* UI adapted from NativeUI to LemonUI.
+* Compatibility shims added:
 
-These must be obtained from their own official sources.
+  * `EnhancedWanted`
+  * `GameClockCompat`
+  * LemonUI-backed `NativeUI` facade
+* Helper subsystems added:
+
+  * `Diagnostics`
+  * `StoragePaths`
+  * `XmlPersistence`
+
+These compatibility and helper systems were added for the Enhanced port and were not part of the original mod.
+
+The gameplay and balance logic is preserved as closely as possible from the original Better Chases+ mod. The Enhanced port changes are limited to runtime compatibility, UI integration, storage/logging helpers, and required API substitutions.
+
+## Third-party components
+
+These components are referenced by the project but are **not redistributed in this source repository**:
+
+* **ScriptHookVDotNet Enhanced / SHVDNE**
+
+  * https://www.gta5-mods.com/tools/script-hook-v-net-enhanced
+
+* **LemonUI** / MIT License
+
+  * https://github.com/LemonUIbyLemon/LemonUI
+
+* **Script Hook V** by Alexander Blade
+
+  * http://www.dev-c.com/gtav/scripthookv/
+
+These dependencies must be obtained from their own official sources.
 
 ## Permission
-The original mod carries no explicit license. This port is shared in the
-collaborative spirit in which the original was built upon Eddlm's and Guadmaz's
-work. If an original author wishes this port removed, it will be taken down on
-request.
+
+The original Better Chases+ source has no explicit license. Default copyright rules apply, and all rights remain with the original authors.
+
+This port is shared as a community compatibility effort and credits the original work throughout. If an original author objects to this port being available, it will be taken down on request.
