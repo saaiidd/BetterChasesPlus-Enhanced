@@ -1,32 +1,39 @@
 # License status
 
-**There is no open-source license granted for this code.**
+**No open-source license is granted for this code.**
 
-Better Chases+ is the work of its original authors (Daimian / `jglassmaker`,
-continuing Eddlm's and Guadmaz's mods). The original project does **not** publish
-an explicit license. Per GitHub's guidance, when a repository has no license,
-**default copyright applies and all rights are reserved by the author** — being
-able to view the source does not grant rights to copy, modify, or redistribute it.
+Better Chases+ is the work of its original authors: Daimian / `jglassmaker`, continuing earlier work from Eddlm and Guadmaz.
 
-This repository is a **community Enhanced-edition port**, published for
-compatibility and preservation, with full credit to the original authors (see
-[NOTICE.md](NOTICE.md)). It does **not** claim to grant you any license to the
-original mod's code, and it does not place any new license on the original
-author's work.
+The original project does **not** publish an explicit license. When a repository has no license, default copyright rules apply. That means all rights remain with the original author unless permission is granted separately. Being able to view public source code does not automatically grant the right to copy, modify, redistribute, or create derivatives from it.
 
-What this means in practice:
-- You may build this source for your own use with GTA V Enhanced.
-- For redistribution, derivative works, or commercial use, the original author's
-  permission would be required — there is no license here that grants it.
-- If an original author objects to this port, it will be removed on request.
+This repository is a **community Enhanced Edition port**, published for compatibility and preservation, with full credit to the original authors. See [NOTICE.md](NOTICE.md).
 
-Third-party components are governed by their own licenses and are **not**
-included in this repository (you supply them yourself to build):
-- **LemonUI** — MIT License — https://github.com/LemonUIbyLemon/LemonUI
-- **ScriptHookVDotNet Enhanced (SHVDNE)** — see its project page.
-- **Script Hook V** (Alexander Blade) — see http://www.dev-c.com/gtav/scripthookv/
+This repository does **not** grant any license to the original Better Chases+ code, and it does not place a new license on the original author's work.
 
-> Note: this source repository does not bundle `LemonUI.SHVDN3.dll`, so LemonUI's
-> MIT license text is not required here. If you distribute a **compiled package**
-> that bundles `LemonUI.SHVDN3.dll`, include LemonUI's MIT license file in that
-> package.
+## What this means
+
+* You may build this source for your own GTA V Enhanced setup.
+* Redistribution, derivative works, or commercial use require permission from the original author.
+* No license in this repository grants permission to redistribute the original mod's code.
+* If an original author objects to this port being available, it will be removed on request.
+
+## Third-party components
+
+Third-party components are governed by their own licenses and are **not included** in this source repository. You must obtain them separately to build the project.
+
+* **LemonUI**: MIT License
+  https://github.com/LemonUIbyLemon/LemonUI
+
+* **ScriptHookVDotNet Enhanced / SHVDNE**
+  See its project page:
+  https://www.gta5-mods.com/tools/script-hook-v-net-enhanced
+
+* **Script Hook V** by Alexander Blade
+  See its official page:
+  http://www.dev-c.com/gtav/scripthookv/
+
+## LemonUI note
+
+This source repository does not bundle `LemonUI.SHVDN3.dll`, so LemonUI's MIT license text is not required inside this repository.
+
+If you distribute a **compiled release package** that bundles `LemonUI.SHVDN3.dll`, include LemonUI's MIT license file in that package.
