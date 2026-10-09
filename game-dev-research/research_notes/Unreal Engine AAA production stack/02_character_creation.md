@@ -5,9 +5,9 @@ Research date: 2026-10-09. All URLs accessed 2026-10-09 unless noted.
 How the research was done: `dev.epicgames.com` (Epic's docs) returned 403 through the research proxy, so I could not open Epic documentation pages directly. Facts attributed to Epic docs come from search-engine snippets of those pages and are marked "(docs via search snippet)". Pages on metahuman.com, unrealengine.com, reallusion.com, daz3d.com, faceform.com and 3dscanstore.com were read in full. "UNVERIFIED" means I could not confirm the claim from a primary source this session. The benchmark games (Hitman: WoA, 007 First Light, GTA V) are quality references only. As general background, which I did not re-verify this session, they run on proprietary engines (IOI Glacier, Rockstar RAGE), so their character pipelines cannot be reused directly.
 
 Version status as of Oct 2026:
-- UE 5.8 / MetaHuman 5.8 shipped in June 2026. The metahuman.com announcement is dated 2026-06-11 and 80.lv reports the launch on 2026-06-18.
-- Epic describes UE 5.8 as the final major UE5 release ahead of UE6 ([80.lv](https://80.lv/articles/populate-your-ue5-8-worlds-with-metahuman-crowds)).
-- UE 5.9 has reportedly been announced, but I found no preview or MetaHuman 5.9 details (UNVERIFIED; [PCGH report](https://www.pcgameshardware.de/Unreal-Engine-Software-239301/News/Version-5-9-angekuendigt-KI-Features-im-Fokus-1551788/)).
+- UE 5.8 / MetaHuman 5.8 shipped in June 2026. The metahuman.com announcement is dated 2026-06-11 and 80.lv reports the launch on 2026-06-18. [Corrected in verification: Epic's forum release posts for UE 5.8 and MetaHuman 5.8 are dated 2026-06-17 ([UE 5.8 Released](https://forums.unrealengine.com/t/unreal-engine-5-8-released/2729274); [MetaHuman 5.8 Released](https://forums.unrealengine.com/t/metahuman-5-8-released/2729288)), and the metahuman.com news index lists the 5.8 post under 2026-06-18. The 2026-06-11 date appears only in that page's metadata, so treat 2026-06-17 as the release date.]
+- Epic describes UE 5.8 as the final major UE5 release ahead of UE6 ([80.lv](https://80.lv/articles/populate-your-ue5-8-worlds-with-metahuman-crowds)). [Corrected in verification: Epic's own wording is "the last planned major Unreal Engine 5 release on our roadmap", and it reserved "the option to release a 5.9, if needed" ([State of Unreal 2026](https://www.unrealengine.com/news/state-of-unreal-2026-top-news-from-the-show); [UE 5.8 blog](https://www.unrealengine.com/news/unreal-engine-5-8-is-now-available)). "Final" is 80.lv's paraphrase.]
+- UE 5.9 has reportedly been announced, but I found no preview or MetaHuman 5.9 details (UNVERIFIED; [PCGH report](https://www.pcgameshardware.de/Unreal-Engine-Software-239301/News/Version-5-9-angekuendigt-KI-Features-im-Fokus-1551788/)). [Verification: partially confirmed. PCGH (2026-08-21) and Korean press coverage of Epic Korea's Unreal Fest Seoul 2026 recap ([khgames](https://www.khgames.co.kr/news/articleView.html?idxno=307619)) say 5.9 is in development, focused on MCP, Developer Assistant and semantic search, with no release date. I found no Epic English-language announcement post. UE6 Early Access is targeted for late 2027 per Tim Sweeney ([Inven Global](https://www.invenglobal.com/articles/24941/tim-sweeney-in-the-unreal-engine-6-era-we-expect-great-things-from-korean-developers)).]
 
 ---
 
@@ -98,12 +98,12 @@ Reallusion CC5 is a capable paid alternative or companion. It offers lighter gam
 - ActorMixer blends up to six characters. ActorMixer Pro ($199) adds one-click randomization and a CORE library of 40+ scanned heads.
 - "Skeleton export geared for UE4 and UE5, with bind pose presets optimized for MetaHuman and UEFN."
 - The CC UE Control Rig plugin was updated for CC5.
-- The prior CC4.54 release was Windows-only; I found no macOS or Linux CC5 build (UNVERIFIED).
+- The prior CC4.54 release was Windows-only; I found no macOS or Linux CC5 build (UNVERIFIED). [Verification: CGChannel's July 2026 Headshot 3.1 article lists Character Creator as "available for 64-bit Windows 7+" with a $299 perpetual licence or subscriptions from $29/month or $99/year ([CGChannel](https://www.cgchannel.com/?p=175693)). Windows-only is likely but still secondary-sourced.]
 
 **Headshot 3 (launched April 2026):**
 - A proprietary AI image-to-3D head model "trained on a large set of high-resolution facial scans". It can also produce full-body digital doubles from photos.
 - A separate paid AI Image Generator uses Google "Nano Banana Pro".
-- Price is UNVERIFIED.
+- Price is UNVERIFIED. [Corrected in verification: CGChannel (updated 2026-07-07 for Headshot 3.1) gives a $199 perpetual licence. The head-generation AI model runs locally at no extra cost; the AI Image Generator consumes online "DA Points" (about $0.30 per 4K image) ([CGChannel](https://www.cgchannel.com/?p=175693)).]
 - Sources: [befores & afters, 2026-04-30](https://beforesandafters.com/2026/04/30/reallusion-redefines-digital-double-creation-with-the-launch-of-headshot-3-for-character-creator-5/); [CGChannel, 2026-04-28](https://www.cgchannel.com/?p=175693).
 
 #### Reallusion AccuRIG and ActorCore
@@ -118,14 +118,14 @@ Reallusion CC5 is a capable paid alternative or companion. It offers lighter gam
 - A new model targets the CC5 HD facial profile ("up to 128 lip morphs").
 - iClone costs $599 perpetual, or $59/month or $199/year; CGChannel says "iClone Personal is free".
 - Source: [CGChannel](https://www.cgchannel.com/2026/07/reallusion-launches-accuface-2/).
-- The iClone Unreal Live Link plugin is reportedly free for developers with ≤$100K annual revenue. The article is undated, so this is UNVERIFIED as current ([ProVideo Coalition](https://www.provideocoalition.com/iclone-unreal-live-link-plug-in-is-now-free-for-independent-creators/)).
+- The iClone Unreal Live Link plugin is reportedly free for developers with ≤$100K annual revenue. The article is undated, so this is UNVERIFIED as current ([ProVideo Coalition](https://www.provideocoalition.com/iclone-unreal-live-link-plug-in-is-now-free-for-independent-creators/)). [Verification: Reallusion's own Indie License page still offers it free if your annual gross revenue from design work is under USD 100,000, you own the full version of iClone 8, one licence per user or organization, schools excluded ([reallusion.com indie page](https://www.reallusion.com/iclone/live-link/unreal-engine/indie.html)). The free iClone Personal edition does not appear to qualify.]
 
 #### Daz Studio / Genesis 9
 - An Interactive License "is required when using or distributing 3D content from the Daz 3D store, whether modified or in its original form, in video games."
 - "The creator of each product chooses whether or not to offer an Interactive License… If no Interactive License options are offered… it is not an option for using in… game." Licences are normally non-refundable.
 - Source: [daz3d.com/interactive-license-info](https://www.daz3d.com/interactive-license-info).
 - Per-item interactive licence prices of about $10/$35/$50 are user-reported only (UNVERIFIED; [Daz forum](https://free.downloads-cache.daz3d.com/forums/discussion/719796/interactive-game-developer-licensing-pricing-distribution-model-questions)).
-- The Daz to Unreal Bridge supports Genesis 9, with IK Rig retargeting and ML Deformer integration. The bridge page lists UE 5.1/5.2 support; current UE 5.7/5.8 support is UNVERIFIED ([daz3d.com/unreal-bridge](https://delorean.daz3d.com/unreal-bridge)).
+- The Daz to Unreal Bridge supports Genesis 9, with IK Rig retargeting and ML Deformer integration. The bridge page lists UE 5.1/5.2 support; current UE 5.7/5.8 support is UNVERIFIED ([daz3d.com/unreal-bridge](https://delorean.daz3d.com/unreal-bridge)). [Corrected in verification: the official daz3d GitHub releases reach UE 5.3 (2023.1.2), with UE 5.4 plugin binaries added in April 2024 and a 2024 alpha pre-release ([daz3d/DazToUnreal releases](https://github.com/daz3d/DazToUnreal/releases)). A community fork maintained by David Vodhanel publishes UE 5.7 builds (v5.7.0.656, 2026-03-29) ([fork release](https://github.com/David-Vodhanel/DazToUnreal/releases/tag/v5.7.0.656)). No UE 5.8 build was found.]
 
 #### Blender / MPFB 2 (MakeHuman for Blender)
 - Core assets (base mesh, targets, skins) are CC0 and allowed in closed-source commercial games. The code is GPL (MPFB) or AGPL (MakeHuman), which does not cover your output. Third-party assets have their own licences.
@@ -155,17 +155,18 @@ Reallusion CC5 is a capable paid alternative or companion. It offers lighter gam
 - The official MD-to-MetaHuman workflow exports USD garments and fits them in the MetaHuman editor's Outfit Clothing section.
 - ChaosCloth compatibility: MD 2025.0 works only with UE 5.4, MD 2025.2 works with UE 5.6+, and UE 5.5 is not supported.
 - Source: [Marvelous Designer support](https://support.marvelousdesigner.com/hc/en-us/articles/52699135975705-Marvelous-Designer-to-MetaHuman-USD-Garment-Integration-Workflow).
+- [Verification: the compatibility list above is confirmed, and it applies only to ChaosCloth assets; regular meshes and materials are unaffected. MD 2025.2 is no longer current: MD 2026.0 shipped in April 2026 and MD 2026.1 on 2026-08-24. MD 2026.1 is rental-only (Windows 11, Rocky/RHEL Linux 9.5+, macOS 14+). Personal plans cost $39/month or $280/year, and Enterprise plans $199/month or $2,000/year ([CGChannel MD 2026.1](https://www.cgchannel.com/2026/08/clo-virtual-fashion-releases-marvelous-designer-2026-1/)). The support article does not yet list 2026.x versions, so ChaosCloth compatibility of 2026.x with UE 5.8 is UNVERIFIED.]
 - Epic ran a webinar on 2026-04-24 on dressing MetaHumans with CLO and Marvelous Designer ([metahuman.com news](https://www.metahuman.com/news)).
 
 ### Inferences
 - MetaHuman covers every tier (hero, cast, crowd) with one skeleton standard, one shader family and one capture pipeline, at no licence cost for a UE game. That makes it the default for a solo developer.
-- Since 5.7, every MHC operation is scriptable from Python, so an AI coding agent (Claude Code) can generate and batch-assemble civilian variants headlessly. This is the strongest AI-automation hook in this category.
+- Since 5.7, every MHC operation is scriptable from Python, so an AI coding agent (Claude Code) can generate and batch-assemble civilian variants headlessly. This is the strongest AI-automation hook in this category. [Corrected in verification: Epic says "nearly all editing and assembly operations" are scriptable, not every one, and scripts run "interactively in the Unreal Editor or on a compute farm" ([metahuman.com 5.7](https://www.metahuman.com/releases/metahuman-5-7-is-now-available)). Autorigging and texture synthesis still use Epic cloud services and need an internet connection (5.6 announcement), so fully offline headless runs are not guaranteed. EULA update 21 also "defines the use of cloud features"; whether bulk automated cloud requests are rate-limited is UNVERIFIED.]
 - CC5 is most valuable for its 10K/15K-poly game and crowd bases and for Headshot 3. With MetaHuman Collections available, it is no longer necessary for a UE-only project.
 
 ### Gaps
 - I could not read Epic's docs pages directly, so MetaHuman triangle and joint counts per LOD and the names of the assembly quality tiers were not confirmed.
 - I found no independent benchmark of MetaHuman Collections (frame time per N characters on specific GPUs).
-- ZBrush and Marvelous Designer pricing were not checked here; they belong to other specialists.
+- ZBrush and Marvelous Designer pricing were not checked here; they belong to other specialists. [Verification: Marvelous Designer pricing was found during verification; see the Clothing section above.]
 
 ---
 
@@ -217,6 +218,7 @@ MetaHuman bodies share the UE5 Mannequin skeleton and Control Rig, so retargetin
   - Pose drivers were baked into RigLogic in 5.6, cutting cost from about 1.44 ms per character on PS5 (8–12 ms on Switch) to about 0.4 ms (transcript reads ".4").
   - The face AnimBP was removed from the chain, and head-movement IK can be disabled.
   - Source: [YouTube, Unreal Engine](https://www.youtube.com/watch?v=tTgMafRAM7A).
+  - [Verification: numbers confirmed against the auto-generated transcript. The talk is from Unreal Fest Bali 2025, presented by Epic's Dustin Davau. The same talk says a full cinematic MetaHuman is about 800 MB on disk versus about 60 MB for the optimized "High" assembly, and recommends starting at LOD 2 for high-end PS5 games. These are speaker figures, not published benchmarks.]
 - The OpenRigLogic and DNA libraries (MIT, C++ with Python bindings) load a MetaHuman "with the same runtime rig evaluation as Unreal Engine" ([metahuman.com/devkit](https://www.metahuman.com/devkit)).
 - The 5.7 conforming changes let you import meshes onto an existing MetaHuman so that variants "share the same skeleton… same animation across them with predictable results" ([metahuman.com](https://www.metahuman.com/news/metahuman-5-7-brings-major-improvements-to-body-conforming-with-more-to-come)).
 - CC5 facial profiles are Standard, Extended, Extended-Plus (with correctives) and HD (with correctives). The HD profile is marked "MetaHuman Compatible", and MHA facial animation import is supported (also in iClone 8) ([reallusion.com](https://www.reallusion.com/character-creator/)).
@@ -240,9 +242,9 @@ For a solo developer, MetaHuman Animator with an iPhone 12+ (offline depth solve
 ### Cited Findings
 - MHA in 5.6 added real-time capture from "mono cameras—including most webcams and many smartphones", "any camera that works with Unreal Engine LiveLink, including certain Android smartphones", and real-time audio-only animation with emotion and head movement ([metahuman.com 5.6](https://www.metahuman.com/news/metahuman-leaves-early-access-with-a-feature-packed-new-release)).
 - Capture device requirements (docs via search snippet: [Epic capture device requirements](https://dev.epicgames.com/documentation/metahuman/metahuman-animator-capture-device-requirements)):
-  - **iPhone:** 12 or newer, with 16 or 16 Pro recommended, plus the Live Link Face iOS app.
-  - **iPad:** 8th generation or newer.
-  - **Android:** Android 13+ with a Snapdragon 8 Gen 1 through 8 Elite Gen 5 or Tensor G3–G5 chipset; Snapdragon 8s chips are not supported. Android is real-time only, with no offline capture.
+  - **iPhone:** 12 or newer, with 16 or 16 Pro recommended, plus the Live Link Face iOS app. [Corrected in verification: the 16/16 Pro recommendation applies to real-time animation. For offline (depth) processing, which is the hero-cinematic path, the docs as quoted on Epic's forum recommend the iPhone 12, and Epic staff explained that older models give higher-quality depth data ([UE forum](https://forums.unrealengine.com/t/best-iphone-version-for-live-link-face-app/2385100)).]
+  - **iPad:** 8th generation or newer. (UNVERIFIED in verification; docs blocked.)
+  - **Android:** Android 13+ with a Snapdragon 8 Gen 1 through 8 Elite Gen 5 or Tensor G3–G5 chipset; Snapdragon 8s chips are not supported. Android is real-time only, with no offline capture. [Disputed in verification: the Google Play listing (updated 2026-06-05) names Snapdragon 8 Gen 1, 8+ Gen 1, 8 Gen 2, 8 Gen 3 and 8 Elite, and confirms 8s is unsupported ([Google Play](https://play.google.com/store/apps/details?id=com.epicgames.facelink&hl=en_US)). In August 2025 Epic staff said Tensor G3/G4 Pixels were not supported ([UE forum](https://forums.unrealengine.com/t/live-link-on-android-devices/2631460)). I could not confirm Tensor or 8 Elite Gen 5 support or the Android 13 minimum (CGChannel reported Android 12+ at launch). On offline capture, metahuman.com/download still says "offline processing (iOS only)", but the same June 2026 Play update "adds take recording for animation processing in Unreal Engine". Treat Android offline support as in flux and test before buying.]
 - PC recommended spec (docs via search snippet: [Epic hardware requirements](https://dev.epicgames.com/documentation/metahuman/metahuman-hardware-requirements-in-unreal-engine)):
   - 16 high-performance physical cores and 32 GB RAM.
   - RTX 3070, RX 6800 XT or M2 Ultra GPU with 8 GB VRAM.
@@ -258,7 +260,7 @@ For a solo developer, MetaHuman Animator with an iPhone 12+ (offline depth solve
 - AccuFace 2: $299; iClone 8.74+; 720p30 webcam minimum; NVIDIA or AMD RX 5700+ GPU; Windows ([CGChannel](https://www.cgchannel.com/2026/07/reallusion-launches-accuface-2/)).
 
 ### Inferences
-- Minimum viable kit is a used iPhone 12+ and a phone head mount (mount price not researched), plus the PC spec above.
+- Minimum viable kit is a used iPhone 12+ and a phone head mount (mount price not researched), plus the PC spec above. [Verification: a used iPhone 12 is also Epic's recommended device for offline depth capture, so it is the best-value choice for cinematics; a 16/16 Pro mainly helps real-time.]
 - Use offline depth processing for hero cinematics, real-time mono for previs, and audio-driven animation for hundreds of NPC barks.
 - Buying or renting a stereo HMC is only worth it if cinematics are a core selling point.
 
@@ -278,6 +280,7 @@ UE 5.8's MetaHuman Collections (Experimental) is now the official path to thousa
 - UEFN MetaHuman talk (Unreal Fest 2024) ([YouTube, Unreal Engine](https://www.youtube.com/watch?v=ygfgO2_WNm4)):
   - "The average Unreal MetaHuman cook size comes to about 800 megabytes", with a raw MetaHuman about 2 GB.
   - UEFN tiers use 4, 3 and 2 LODs (high, medium, low), derived from UE LODs, with LOD0 face skipped.
+  - [Verification: confirmed against the transcript. The same talk reports texture baking plus groom decimation bringing a high-quality UEFN MetaHuman to about 60 to 64 MB cooked. The 2025 Bali talk gives a matching 800 MB (full cinematic) versus about 60 MB (optimized High) figure.]
 - Epic talk ([YouTube](https://www.youtube.com/watch?v=tTgMafRAM7A)):
   - Separate face, body, clothing and groom components add overhead.
   - Choose the MetaHuman type by context (single hero vs squad vs crowd).
@@ -286,7 +289,7 @@ UE 5.8's MetaHuman Collections (Experimental) is now the official path to thousa
   - Use the Animation Budget Allocator (`a.Budget.*`).
   - Disable corrective bones by LOD.
   - Use Anim-to-Texture (VAT) for large crowds.
-- Reference demo: The Matrix Awakens (Dec 2021) reportedly had 35,000 MetaHuman pedestrians in a 15.79 km² city (secondary reports: [AOL/Variety](https://www.aol.com/news/matrix-awakens-epic-games-040021751.html), [Dark Horizons](https://www.darkhorizons.com/?p=151475)). That was a tech demo with heavily simplified distant agents, not a shipped game.
+- Reference demo: The Matrix Awakens (Dec 2021) reportedly had 35,000 MetaHuman pedestrians in a 15.79 km² city (secondary reports: [AOL/Variety](https://www.aol.com/news/matrix-awakens-epic-games-040021751.html), [Dark Horizons](https://www.darkhorizons.com/?p=151475)). That was a tech demo with heavily simplified distant agents, not a shipped game. [Verification: Epic's own blog says "sixteen kilometers square" and "thousands of MetaHuman agents" without giving 35,000 ([Epic blog](https://www.unrealengine.com/en-US/blog/introducing-the-matrix-awakens-an-unreal-engine-5-experience)). Epic's City Sample docs (search snippet) say only the closest crowd members are fully rigged MetaHumans and distant ones are vertex-animated static meshes. The 35,000 figure remains secondary-only.]
 - CC5 alternatives for crowds: ActorBUILD (15K polys, single material, "for crowd rendering") and Game Base (10K, reduced bones) ([reallusion.com](https://www.reallusion.com/character-creator/)).
 
 ### Inferences
@@ -322,9 +325,9 @@ In both cases the rig comes from the host system, not the AI. The audio-driven a
   - OpenRigLogic has Python bindings ([devkit](https://www.metahuman.com/devkit)).
   - UE 5.8 has an MCP server (mentioned in [metahuman.com news](https://www.metahuman.com/news); details are the MCP specialist's scope).
 - Licence constraint on AI:
-  - The UE EULA change log "adds a restriction on use of MetaHuman digital characters and animation curves with AI or similar technologies". It also adds "express language against use of the Licensed Technology as a training input or prompt-based input into Generative AI Programs" ([UE EULA change log](https://www.unrealengine.com/eula-change-log/unreal)).
-  - A secondary summary says the prompt-input ban applies "where the Generative AI Program trains on input data" (UNVERIFIED wording; [ConductAtlas](https://conductatlas.com/platform/unreal-engine/unreal-engine-eula/ai-training-input-prohibition/)).
-  - Reallusion bans AI training on its content or renders without an Enterprise licence ([Reallusion content license](https://www.reallusion.com/license/content.html)).
+  - The UE EULA change log "adds a restriction on use of MetaHuman digital characters and animation curves with AI or similar technologies". It also adds "express language against use of the Licensed Technology as a training input or prompt-based input into Generative AI Programs" ([UE EULA change log](https://www.unrealengine.com/eula-change-log/unreal)). [Corrected in verification: these are two different amendments. The Generative AI input language arrived in EULA update 20, and the MetaHuman AI restriction in update 21.]
+  - A secondary summary says the prompt-input ban applies "where the Generative AI Program trains on input data" (UNVERIFIED wording; [ConductAtlas](https://conductatlas.com/platform/unreal-engine/unreal-engine-eula/ai-training-input-prohibition/)). [Corrected in verification: the wording is confirmed in the EULA itself (Section 6(e) general restrictions, read via search snippet of [unrealengine.com/eula/unreal](https://www.unrealengine.com/eula/unreal) and quoted verbatim in [EpicGames/OpenRigLogic issue #1](https://github.com/EpicGames/OpenRigLogic/issues/1)). Your activities must not "result in using the Licensed Technology as a training input to any Generative AI Program or as prompt-based input where the Generative AI Program trains on input data". A separate bullet bars you to "use, or permit others to use, MetaHuman digital characters and animation curves (or any rendered output thereof if crafted to replicate the functionality of MetaHuman) to build or enhance any database or training or testing any artificial intelligence, machine learning, deep learning, neural networks, or similar technologies." Two points matter here. The first clause covers all UE "Licensed Technology" (engine code, examples, starter content), not just MetaHuman. The second clause covers "testing" as well as training.]
+  - Reallusion bans AI training on its content or renders without an Enterprise licence ([Reallusion content license](https://www.reallusion.com/license/content.html)). [Corrected in verification: the Content EULA (updated 2025-08-01) is broader. Section 2.1.B(C)(e) forbids use of Content or Derivative Content "For machine learning, AI training, or AI-generated output", and Enterprise is negotiated case by case ([Reallusion Content EULA](https://www.reallusion.com/Content/EULA/EULA.htm)).]
 
 ### Inferences
 - **Safe AI use:** Claude Code writing MHC Python scripts to batch-create and assemble characters. This does not feed MetaHuman content into a generative model.
